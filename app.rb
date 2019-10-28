@@ -5,8 +5,9 @@ class App < Sinatra::Base
     '202'
     'Amra Sezairi'
  end
- get '/hometown'
+ get '/hometown' do
   '200'
   'Kosovo'
+end
  
 end
