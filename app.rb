@@ -10,5 +10,7 @@ class App < Sinatra::Base
   'Kosovo'
 end
  
- get '/'
+ get '/favorite-song' do
+   '200'
+   'Case of you'
 end
